@@ -22,16 +22,15 @@ const Skills = () => {
   ];
 
   return (
-    <div className="container mx-auto p-4">
+    <div className="container mx-auto p-4 bg-slate-950">
       <h2 className="text-4xl flex items-center justify-center font-bold mb-4">SKILLS</h2>
-      <ul className="grid grid-cols-1 gap-5  place-items-center md:grid-cols-3   flex-wrap">
+      <ul className="grid grid-cols-1 gap-5 text-white  place-items-center md:grid-cols-3   flex-wrap">
         {skills.map((skill) => (
 
-          <div className=' flex flex-col items-center justify-center text-center font-medium relative'>
+          <div className=' flex flex-col w-96 items-center justify-center  font-medium relative'>
             <img className='w-[95%] md:w-36 md:h-36 mx-auto rounded-lg  ' src={skill.image} alt="" />
-            <div className='md:flex md:items-center md:justify-center font-bold md:h-28 md:w-28 md:rounded-full md:border-4 md:bg-gradient-to-tr md:bg-purple-600 from from-white md:border-gray-950 md:absolute top-1/2 left-2/3'>{skill.persentage}</div>
 
-            <h1 className=' font-extrabold'>{skill.Title}</h1>
+            <h1 className='text-3xl font-extrabold'>{skill.Title}</h1>
             <p>{skill.Description}</p>
           </div>
 

@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 p-4 md:flex  md:justify-between items-center ">
+    <nav className="bg-slate-950 p-4 md:flex flex flex-col  h-screen  w-96  md:justify-between items-center ">
       <div className="flex items-center justify-between py-1 ">
         <div className="text-white">
           <svg
@@ -70,7 +70,7 @@ const Navbar = () => {
       <div
         className={`${
           isOpen ? "flex flex-col items-center border-t-4" : "hidden"
-        } md:flex md:items-center gap-3    `}
+        } md:flex md:flex-col md:items-center gap-3    `}
       >
         <Link
           to={"/"}
