@@ -23,8 +23,8 @@ const Projects = () => {
   ];
 
   return (
-    <div className="container mx-auto p-4 bg-slate-950">
-      <h2 className="text-2xl font-bold mb-4 ">Projects</h2>
+    <div className="container mx-auto p-4 bg-slate-950 flex flex-col gap-5 h-screen overflow-scroll rounded-3xl">
+      <h2 className="text-2xl font-bold text-white mb-4 border-b-4 w-1/2 ">PROJECTS</h2>
       <ul className=" grid grid-cols-1 gap-5  place-items-center md:grid-cols-3 items-center justify-center">
         {dummyProjects.map((project) => (
           <li key={project.id} className="h-full  flex flex-col items-center w-96  text-white justify-center p-5 shadow-lg gap-4">

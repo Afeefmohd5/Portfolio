@@ -22,8 +22,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='bg-slate-950'>
-    <div className="mx-auto w- max-w-7xl  py-2">
+    <div className='bg-slate-950 w-full h-screen md:flex md:items-center md:justify-center p-10 rounded-3xl '>
+    <div className="mx-auto w- max-w-7xl w-full py-2">
     <div class="mx-auto my-4 max-w-2xl  md:my-6">
      
       <div class="overflow-hidden rounded-xl  bg-white text-black p-4 shadow">

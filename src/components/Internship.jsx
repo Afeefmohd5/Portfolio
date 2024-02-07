@@ -2,7 +2,7 @@
 
 const Internship = () => {
   return (
-    <div className="bg-slate-950 p-10">
+    <div className="bg-slate-950 w-full overflow-scroll h-screen rounded-3xl p-10">
       <div class="px-4 sm:px-0">
         <h3 class="text-base font-semibold leading-7 text-white">EDUCATION INFORMATION</h3>
         <p class="mt-1 max-w-2xl text-sm leading-6 text-gray-400">Personal details and education.</p>

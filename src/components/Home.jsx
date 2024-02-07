@@ -17,8 +17,9 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="container relative gap-5 md:gap-5 bg-slate-950 text-white flex flex-col md:flex-row justify-center items-center h-full mx-auto p-4">
-      <div className="absolute top-20 left-0 z-0 rounded-full w-[25rem] h-[25rem] blur-2xl bg-slate-800"></div>
+    <div className="container relative gap-5 md:gap-5   bg-slate-950 text-white flex flex-col md:flex-row justify-center items-center h-full rounded-3xl overflow-scroll  mx-auto p-5
+    ">
+      <div className="absolute top-20 left-0 z-0  rounded-full w-[25rem] h-[25rem] blur-2xl bg-slate-800"></div>
       <div className="absolute bottom-0 right-0 z-0 rounded-full w-[15rem] h-[15rem] blur-2xl bg-purple-500"></div>
       <div className="md:w-1/2 w-full  z-10 flex flex-col gap-4">
         <h1 className="text-3xl font-bold mb-4">
