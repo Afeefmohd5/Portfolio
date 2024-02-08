@@ -25,9 +25,9 @@ const Projects = () => {
   return (
     <div className="container mx-auto p-4 bg-slate-950 flex flex-col gap-5 h-screen overflow-scroll rounded-3xl">
       <h2 className="text-2xl font-bold text-white mb-4 border-b-4 w-1/2 ">PROJECTS</h2>
-      <ul className=" grid grid-cols-1 gap-5  place-items-center md:grid-cols-3 items-center justify-center">
+      <ul className=" grid grid-cols-1 gap-5  place-items-center md:grid-cols-2 lg:grid-cols-3 items-center justify-center">
         {dummyProjects.map((project) => (
-          <li key={project.id} className="h-full  flex flex-col items-center w-96  text-white justify-center p-5 shadow-lg gap-4">
+          <li key={project.id} className="h-full  flex flex-col items-center   text-white justify-center p-5 shadow-lg gap-4">
             <img className='w-[95%] md:w-[75%] md:h-[75%] mx-auto rounded-lg' src={project.image} alt="" />
             <h3 className="text-xl font-semibold">{project.title}</h3>
             <p className="text-sm">{project.description}</p>

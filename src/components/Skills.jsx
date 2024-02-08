@@ -22,12 +22,12 @@ const Skills = () => {
   ];
 
   return (
-    <div className="container flex flex-col overflow-scroll h-screen gap-5 mx-auto p-4 bg-slate-950 rounded-3xl">
+    <div className="container flex flex-col overflow-scroll h-screen gap-5 mx-auto p-6 bg-slate-950 rounded-3xl">
       <h2 className="text-4xl flex items-center justify-center  text-white border-b-4 w-1/2   font-bold mb-4">SKILLS</h2>
-      <ul className="grid grid-cols-1 gap-5 text-white  place-items-center md:grid-cols-3   flex-wrap">
+      <ul className="grid grid-cols-1 gap-5 text-white  place-items-center md:grid-cols-2 lg:grid-cols-3   flex-wrap">
         {skills.map((skill) => (
 
-          <div className=' flex flex-col w-96 items-center justify-center  font-medium relative'>
+          <div className=' flex flex-col  items-center justify-center  font-medium relative'>
             <img className='w-[85%] h-[20rem] md:w-24 md:h-24 mx-auto rounded-lg  ' src={skill.image} alt="" />
 
             <h1 className='text-3xl font-extrabold'>{skill.Title}</h1>

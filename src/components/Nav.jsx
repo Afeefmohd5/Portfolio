@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
+  
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggle = () => {
@@ -11,7 +12,7 @@ const Navbar = () => {
 
   return (
 
-<div className=" ">
+<div className=" "> 
     <nav className="bg-slate-950 md:rounded-3xl p-4 md:flex  flex-col  h-[38rem]  w-60  border hidden  justify-around items-center ">
       <div className="flex items-center justify-between py-1 ">
         <div className="text-white">
@@ -75,35 +76,36 @@ const Navbar = () => {
       >
         <Link
           to={"/"}
-          className="text-white block py-1 mt-3 md:mt-0 hover:bg-slate-950 border w-full text-center px-3"
+          className="text-white block py-1 mt-3 md:mt-0 hover:bg-purple-600 bg-purple-950  w-full text-center px-3"
         >
           Home
         </Link>
         <Link
           to={"/projects"}
-          className="text-white block py-1 mt-3 md:mt-0 hover:bg-slate-950 border w-full text-center px-3"
+          className="text-white block py-1 mt-3 md:mt-0 hover:bg-purple-600 bg-purple-950  w-full text-center px-3"
         >
           Projects
         </Link>
         <Link
           to={"/skills"}
-          className="text-white block py-1 mt-3 md:mt-0 hover:bg-slate-950 border w-full text-center px-3"
+          className="text-white block py-1 mt-3 md:mt-0 hover:bg-purple-600 bg-purple-950  w-full text-center px-3"
         >
           Skills
         </Link>
         <Link
           to={"/internship"}
-          className="text-white block py-1 mt-3 md:mt-0 hover:bg-slate-950 border w-full text-center px-3"
+          className="text-white block py-1 mt-3 md:mt-0 hover:bg-purple-600 bg-purple-950  w-full text-center px-3"
         >
           Internship
         </Link>
         <Link
           to={"/contact"}
-          className="text-white block py-1 mt-3 md:mt-0 hover:bg-slate-950 border w-full text-center px-3"
+          className=" block py-1 mt-3 md:mt-0 hover:bg-purple-600 bg-purple-950 text-white  w-full text-center px-3"
         >
           Contact
         </Link>
       </div>
+      
     </nav>
 
 
